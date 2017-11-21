@@ -4,7 +4,8 @@
   "description": "ES lint rules for APC projects",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "yarn lint && mocha",
+    "lint": "eslint test/* --config eslintrc.json"
   },
   "repository": {
     "type": "git",
