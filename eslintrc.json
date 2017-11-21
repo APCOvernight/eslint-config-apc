@@ -5,5 +5,9 @@
     "jquery": true,
     "node": true,
     "browser": true
+  },
+  "rules": {
+  },
+  "globals": {
   }
 }
