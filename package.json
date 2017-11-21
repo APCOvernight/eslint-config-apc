@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-apc",
+  "version": "0.1.0",
+  "description": "ES lint rules for APC projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APCOvernight/eslint-config-apc.git"
+  },
+  "keywords": [
+    "linter",
+    "code",
+    "style",
+    "eslint",
+    "eslintconfig",
+    "standard",
+    "standardjs"
+  ],
+  "author": "Ian Egner <ian.egner@apc-overnight.com> (https://twitter.com/ianegner)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APCOvernight/eslint-config-apc/issues"
+  },
+  "homepage": "https://github.com/APCOvernight/eslint-config-apc#readme"
+}
