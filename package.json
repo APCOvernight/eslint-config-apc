@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/APCOvernight/eslint-config-apc#readme",
   "dependencies": {
-    "eslint": "4.13.1",
+    "eslint": "4.14.0",
     "eslint-config-standard": "10.2.1",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-node": "5.2.1",
