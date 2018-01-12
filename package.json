@@ -38,7 +38,6 @@
     "eslint-plugin-standard": "3.0.1"
   },
   "devDependencies": {
-    "chai": "4.1.2",
-    "mocha": "4.1.0"
+    "apc-test": "^1.0.0"
   }
 }
