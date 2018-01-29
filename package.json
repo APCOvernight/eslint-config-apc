@@ -38,6 +38,6 @@
     "eslint-plugin-standard": "3.0.1"
   },
   "devDependencies": {
-    "apc-test": "1.0.1"
+    "apc-test": "1.0.2"
   }
 }
