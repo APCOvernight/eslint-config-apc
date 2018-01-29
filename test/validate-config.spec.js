@@ -67,7 +67,7 @@ describe('load config in eslint to validate all rule syntax is correct', () => {
   })
 
   it('Error with invalid jsdoc', () => {
-    const code = 'const foo = 1\n/**\n * [description]\n * @return {[type]}\n [description]\n */\nconst bar = function (id) { return 2 }\nbar(foo)\n'
+    const code = 'const foo = 1\n/**\n * [description]\n * @return {[type]}\n */\nconst bar = function (id) { return 2 }\nbar(foo)\n'
 
     const cli = new CLIEngine({
       useEslintrc: false,
@@ -78,7 +78,7 @@ describe('load config in eslint to validate all rule syntax is correct', () => {
   })
 
   it('Allow with correct jsdoc', () => {
-    const code = 'const foo = 1\n/**\n * [description]\n * @param {String} id Given ID\n * @return {[type]}\n [description]\n */\nconst bar = function (id) { return 2 }\nbar(foo)\n'
+    const code = 'const foo = 1\n/**\n * [description]\n * @param {String} id Given ID\n * @return {[type]}\n */\nconst bar = function (id) { return 2 }\nbar(foo)\n'
 
     const cli = new CLIEngine({
       useEslintrc: false,

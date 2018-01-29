@@ -25,7 +25,9 @@
     ],
     "valid-jsdoc": [
       "error", {
-        "requireReturn": false
+        "requireReturn": false,
+        "requireParamDescription": false,
+        "requireReturnDescription": false
       }
     ]
   },
