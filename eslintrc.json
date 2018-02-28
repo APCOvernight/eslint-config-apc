@@ -2,6 +2,9 @@
   "extends": "standard",
   "env": {
   },
+  "plugins": [
+    "mocha"
+  ],
   "rules": {
     "no-var": "error",
     "no-console": [
@@ -29,7 +32,8 @@
         "requireParamDescription": false,
         "requireReturnDescription": false
       }
-    ]
+    ],
+    "mocha/no-exclusive-tests": "error"
   },
   "globals": {
   }

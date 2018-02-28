@@ -87,4 +87,10 @@ describe('load config in eslint to validate all rule syntax is correct', () => {
     expect(cli.executeOnText(code).warningCount).to.equal(0)
     expect(cli.executeOnText(code).errorCount).to.equal(0)
   })
+
+  it('Error with exclusive tests (it.only, describe.only)', () => {
+    const code = 'const it = {}\nit.only(\'Some test case\', () => {})\n'
+    expect(cli.executeOnText(code).warningCount).to.equal(0)
+    expect(cli.executeOnText(code).errorCount).to.equal(1)
+  })
 })
