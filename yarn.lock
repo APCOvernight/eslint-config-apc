@@ -67,9 +67,9 @@ any-promise@^1.0.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
 
-apc-test@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/apc-test/-/apc-test-1.0.3.tgz#77da598c0b5abe129a157ef02e014c38c1579277"
+apc-test@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/apc-test/-/apc-test-1.0.4.tgz#af620bb79fb05c03bb66cd9bfd964aa0cdeb539a"
   dependencies:
     chai "4.1.2"
     codeclimate-test-reporter "0.5.0"
@@ -78,12 +78,12 @@ apc-test@1.0.3:
     nyc "11.4.1"
     sinon "4.2.2"
     sinon-chai "2.14.0"
-    stryker "0.18.1"
-    stryker-api "0.12.0"
-    stryker-html-reporter "0.11.5"
-    stryker-javascript-mutator "0.3.3"
-    stryker-mocha-framework "0.8.1"
-    stryker-mocha-runner "0.10.3"
+    stryker "0.19.1"
+    stryker-api "0.13.0"
+    stryker-html-reporter "0.12.1"
+    stryker-javascript-mutator "0.3.5"
+    stryker-mocha-framework "0.8.3"
+    stryker-mocha-runner "0.10.5"
 
 append-transform@^0.4.0:
   version "0.4.0"
@@ -674,9 +674,9 @@ escodegen@^1.8.0:
   optionalDependencies:
     source-map "~0.5.6"
 
-eslint-config-standard@10.2.1:
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-10.2.1.tgz#c061e4d066f379dc17cd562c64e819b4dd454591"
+eslint-config-standard@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-11.0.0.tgz#87ee0d3c9d95382dc761958cbb23da9eea31e0ba"
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.2"
@@ -692,9 +692,9 @@ eslint-module-utils@^2.1.1:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-import@2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.8.0.tgz#fa1b6ef31fcb3c501c09859c1b86f1fc5b986894"
+eslint-plugin-import@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.9.0.tgz#26002efbfca5989b7288ac047508bd24f217b169"
   dependencies:
     builtin-modules "^1.1.1"
     contains-path "^0.1.0"
@@ -703,7 +703,7 @@ eslint-plugin-import@2.8.0:
     eslint-import-resolver-node "^0.3.1"
     eslint-module-utils "^2.1.1"
     has "^1.0.1"
-    lodash.cond "^4.3.0"
+    lodash "^4.17.4"
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
 
@@ -713,9 +713,9 @@ eslint-plugin-mocha@4.11.0:
   dependencies:
     ramda "^0.24.1"
 
-eslint-plugin-node@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-6.0.0.tgz#5ad5ee6b5346aec6cc9cde0b8619caed2c6d8f25"
+eslint-plugin-node@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-6.0.1.tgz#bf19642298064379315d7a4b2a75937376fa05e4"
   dependencies:
     ignore "^3.3.6"
     minimatch "^3.0.4"
@@ -741,9 +741,9 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@4.17.0:
-  version "4.17.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.17.0.tgz#dc24bb51ede48df629be7031c71d9dc0ee4f3ddf"
+eslint@4.18.1:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.18.1.tgz#b9138440cb1e98b2f44a0d578c6ecf8eae6150b0"
   dependencies:
     ajv "^5.3.0"
     babel-code-frame "^6.22.0"
@@ -1549,10 +1549,6 @@ locate-path@^2.0.0:
   dependencies:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
-
-lodash.cond@^4.3.0:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
 
 lodash.get@^4.4.2:
   version "4.4.2"
@@ -2412,15 +2408,15 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-stryker-api@0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/stryker-api/-/stryker-api-0.12.0.tgz#e9ead8c1f2bb2286d5353198eb3bcbe1abeab4fb"
+stryker-api@0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/stryker-api/-/stryker-api-0.13.0.tgz#25677e3d2f915630072ccdd1130ed793c60dee48"
   dependencies:
     tslib "^1.6.0"
 
-stryker-html-reporter@0.11.5:
-  version "0.11.5"
-  resolved "https://registry.yarnpkg.com/stryker-html-reporter/-/stryker-html-reporter-0.11.5.tgz#37ea3b6ca019735fdccab61595b1235e53843e26"
+stryker-html-reporter@0.12.1:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/stryker-html-reporter/-/stryker-html-reporter-0.12.1.tgz#93aab724fbf334d39419559f79cafef5707d2806"
   dependencies:
     file-url "^2.0.0"
     lodash "^4.13.1"
@@ -2430,9 +2426,9 @@ stryker-html-reporter@0.11.5:
     rimraf "^2.6.1"
     typed-html "^0.6.0"
 
-stryker-javascript-mutator@0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/stryker-javascript-mutator/-/stryker-javascript-mutator-0.3.3.tgz#9c48271cfa181b6755147fde51ce3397eabd740f"
+stryker-javascript-mutator@0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/stryker-javascript-mutator/-/stryker-javascript-mutator-0.3.5.tgz#cba34052f1d36965abfb04092809e635e581bed3"
   dependencies:
     babel-core "^6.26.0"
     babel-generator "^6.26.0"
@@ -2441,22 +2437,22 @@ stryker-javascript-mutator@0.3.3:
     log4js "^1.1.1"
     tslib "^1.8.0"
 
-stryker-mocha-framework@0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/stryker-mocha-framework/-/stryker-mocha-framework-0.8.1.tgz#ea28cadfa04d54c276333bc1a2fbd7124fa63653"
+stryker-mocha-framework@0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/stryker-mocha-framework/-/stryker-mocha-framework-0.8.3.tgz#0ce8fbf2d4776a49404c379295756812d1673a2c"
   dependencies:
     log4js "^1.1.1"
 
-stryker-mocha-runner@0.10.3:
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/stryker-mocha-runner/-/stryker-mocha-runner-0.10.3.tgz#a4dd58fd2d4de2db3402eaa9d7efe155d325276c"
+stryker-mocha-runner@0.10.5:
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/stryker-mocha-runner/-/stryker-mocha-runner-0.10.5.tgz#f2356bd2292498b73e03e576f9764f1401d1933b"
   dependencies:
     log4js "^1.1.1"
     tslib "^1.5.0"
 
-stryker@0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/stryker/-/stryker-0.18.1.tgz#223a40076ba054d5c85ee16813c9533a8764610b"
+stryker@0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/stryker/-/stryker-0.19.1.tgz#d2531ee959e33f0c27dcb6acde1ff30afe716831"
   dependencies:
     chalk "^2.3.0"
     commander "^2.12.2"
@@ -2474,8 +2470,9 @@ stryker@0.18.1:
     rimraf "^2.6.1"
     rxjs "^5.4.3"
     serialize-javascript "^1.3.0"
+    source-map "^0.6.1"
     tslib "^1.5.0"
-    typed-rest-client "^1.0.5"
+    typed-rest-client "^1.0.7"
 
 supports-color@4.4.0:
   version "4.4.0"
@@ -2610,9 +2607,9 @@ typed-html@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/typed-html/-/typed-html-0.6.0.tgz#15a6c19e6f4f7ee710b36a7b650a37c4e614dea5"
 
-typed-rest-client@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/typed-rest-client/-/typed-rest-client-1.0.5.tgz#5107cc002e2fe6cb0cf39c3e066fae24f6aa6688"
+typed-rest-client@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/typed-rest-client/-/typed-rest-client-1.0.7.tgz#0eba935a93b1ca8800bafa0b4605397ff8211c70"
   dependencies:
     tunnel "0.0.4"
     underscore "1.8.3"
